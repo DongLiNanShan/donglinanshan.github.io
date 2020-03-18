@@ -1,11 +1,11 @@
 header {
-    background-image: url(/image/header_background.jpg);
-    height: 250px;
+    background: #222;
+    height: 52px;
     color: #9d9d9d;
     box-shadow: 0 2px 4px 1px rgba(0,0,0,0.5);
     margin-bottom: 20px;
     a {
-        color: # fff;
+        color: #9d9d9d;
         -webkit-transition: 0.2s ease;
         transition: 0.2s ease;
         &:hover {
@@ -43,14 +43,14 @@ header {
                         padding: 0 10px;
                         height: 52px;
                         &:hover {
-                            background-color: #708090;
+                            background-color: #000;
                         }
                         i {
                             margin-right: 5px;
                         }
                     }
                     >.active {
-                        color: #fff;
+                        color: #000;
                         background-color: #708090;
                         box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
                     }
@@ -61,11 +61,10 @@ header {
 }
 @media screen and (max-width:1200px) and (min-width: 770px) {
     header {
-        height: 200px;
+        height: 50px;
         .wrapper {
             width: 90%;
-	    padding-top: 200px;
-            line-height:50px;
+            line-height: 50px;
             .brand {
                 font-size: 16px;
             }
@@ -94,7 +93,7 @@ header {
 }
 @media screen and (max-width: 770px) {
     header {
-        height: 200px;
+        height: 48px;
         margin-bottom: 15px;
         .wrapper {
             width: 95%;
